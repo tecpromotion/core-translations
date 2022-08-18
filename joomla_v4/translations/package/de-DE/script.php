@@ -424,3 +424,5 @@ class Pkg_deDEInstallerScript extends InstallerScript
 		$this->removeFiles();
 	}
 }
+
+echo 'test';
