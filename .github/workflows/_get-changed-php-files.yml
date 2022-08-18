@@ -1,7 +1,7 @@
 name: Get changed files
 
 on:
-  push:
+  pull_request:
     branches:
       - test-wf-changed-files
   # Allows you to run this workflow manually from the Actions tab
